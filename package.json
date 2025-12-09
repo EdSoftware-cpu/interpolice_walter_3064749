@@ -1,0 +1,22 @@
+{
+  "name": "interpolice_backend",
+  "version": "1.0.0",
+  "description": "<!-- historial de lo que ocurra durante el proyecto -->\r ## BITACORA DEL PROYECTO",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.11"
+  }
+}
