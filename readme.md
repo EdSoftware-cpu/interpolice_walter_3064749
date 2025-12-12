@@ -1,7 +1,7 @@
 <!-- historial de lo que ocurra durante el proyecto -->
-## BITACORA DEL PROYECTO
+# BITACORA DEL PROYECTO
 
-## HERRAMIENTAS BACK
+# HERRAMIENTAS BACK
 
 gestor: mysql - MariaDB 
 sitio official : https://mariadb.org/
@@ -13,7 +13,7 @@ mysql2: Plugin para gestionar interacciones con la bd - orm (sqlite)
 cors: paara la gestion de CORS (cros origin resource sharing)
 env: variables globales del proyecto (correlaciones, rutas)
 
-## HERRAMIENTAS FRONT
+# HERRAMIENTAS FRONT
 
 CSS: Framework Bootstrap
 BUNDLER: Vite -(WebPAck)
@@ -30,4 +30,20 @@ Vanilla js
 git remote add origin https://github.com/EdSoftware-cpu/interpolice_walter_3064749.git
 -hacemos la primer actualizacion local y remota:
 local: git commit . -m "inicio del proyecto"
-remota: git push -u origin main
+remota: git push -u origin master
+-revision del package json: verificamos las dependencias
+-modficamos el packae json para ejecucion del proyecto:
+"start": "node index.js",
+"dev": "nodemon index.js",
+
+## CODIFICACION DEL PROYECTO
+
+-crear el archivo principal: index.js
+-configurar los plugins: nodemon, cors, hacer la primer prueba
+nmp run dev(Modo Desarrollador), npm start(Modo Produccion)
+
+## creacion del modulo conexion a base de datos
+
+-imprtamos la libreria mysql2 y hacemos la conexion deacuerdo al codigo
+
+## CODDIFICACION DEL MODULO CIUDADANOS
