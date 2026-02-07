@@ -33,8 +33,8 @@ local: git commit . -m "inicio del proyecto"
 remota: git push -u origin master
 -revision del package json: verificamos las dependencias
 -modficamos el packae json para ejecucion del proyecto:
-"start": "node index.js",
-"dev": "nodemon index.js",
+"start": "node index.js", este es modo produccion/depliegue
+"dev": "nodemon index.js", este es modo desarrollo o development 
 
 ## CODIFICACION DEL PROYECTO
 
@@ -47,3 +47,13 @@ nmp run dev(Modo Desarrollador), npm start(Modo Produccion)
 -imprtamos la libreria mysql2 y hacemos la conexion deacuerdo al codigo
 
 ## CODDIFICACION DEL MODULO CIUDADANOS
+
+### IMPLEMATACION DE ARQUITECTURA DE SOFTWARE POR CAPAS (N-TIER)
+CONROLLER: Controlador de modulo, maneja la logica de peticiones y respuestas
+ROUTES: Se encarga de construir los EndPoints o rutas de la API en ella podemos inyectar los Middlewares
+MODELS: se encarga de la interecion(Consultas) con el SGBD, implementa la logica del negocio 
+
+CAPAS DE SOPORTE
+MIDDLEWARE: Capa intemedia entre el cliente y la API(ejemplo: Valiar tokens, Validar ip por cors)
+HELPERS: Ayudas, ayudantes, es decir clases o funciones reusables del sistema por ejemplo:
+ un sistema de errores
