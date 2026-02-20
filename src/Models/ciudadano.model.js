@@ -2,11 +2,11 @@
 
 // importamos la conexion
 
-import { cnx } from "./conexionBD.js";
+import { db } from "./conexionBD.js";
 
 // activar el manejo de promesas (asincronica)
 
-const db = cnx.promise();
+
 
 // creamos el modulo:: usando el concepto orientado a objetos
 //  clase correspondiente a modelo ciudadanos

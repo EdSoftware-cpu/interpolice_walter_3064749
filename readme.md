@@ -57,3 +57,12 @@ CAPAS DE SOPORTE
 MIDDLEWARE: Capa intemedia entre el cliente y la API(ejemplo: Valiar tokens, Validar ip por cors)
 HELPERS: Ayudas, ayudantes, es decir clases o funciones reusables del sistema por ejemplo:
  un sistema de errores
+
+ ## CONFIGUARACION DE VARIABLES DE ENTORNO / GLOBALES
+ 
+ Sirven para mejorar la confidencialidad, mejor mantenibilida
+ en node.js : variables .env
+ instalar paquete dotenv y confiuararlo (node.js y lo implementa nativo)
+ - npm i dotenv
+- crear un archivo .env en la carpeta raiz del proyecto
+- Ver el ejemplo de archivo .env (recuerde crear estilo constantes)
