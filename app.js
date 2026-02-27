@@ -5,6 +5,7 @@
 import express, { json } from "express";
 import cors from "cors";
 import CiudadanoRutas from "./src/routes/ciudadano.route.js";
+import usuarioRutas from "./src/routes/usuario.route.js";
 
 // * instanciamos la libreria en un objeto - app
 const app = express();
@@ -14,5 +15,6 @@ const port = 3000;
 // * primer recurso o endpoint
 // MIddlewares
 app.use("/api", CiudadanoRutas);
+app.use("/api", usuarioRutas);
 
 export default app;
