@@ -9,7 +9,7 @@ import { db } from "./conexionBD.js";
 // creamos el modulo:: usando el concepto orientado a objetos
 //  clase correspondiente a modelo ciudadanos
 
-export const CiudadanoModel = {
+export const UsuarioModel = {
   // LISTAR TODOS : usamos funciones asincroicas para aprovechar
   // las promesas (los hilos de ejecucion)
 
